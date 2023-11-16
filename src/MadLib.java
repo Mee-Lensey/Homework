@@ -56,7 +56,7 @@ public class MadLib {
                 +wholeNumberBetween1And4+ " students in the " +season+ ". But, "
                 +miltonDean+ " said it actually has only happened "
                 + number2+" times. Wish us luck! If we survive, we will earn a "
-                +letterGrade+ "- in P.E. class.";
+                +letterGrade+ " in P.E. class.";
 
 //now print story to the dos window
         System.out.println(story);
