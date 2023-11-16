@@ -1,8 +1,8 @@
 public class ConDitionals {
     public static void main(String[] args) {
-        ConDitionals MagicEightBall=new ConDitionals();
-        // declaration=random;
-        double randNum;
+        ConDitionals MagicEightBall = new ConDitionals();
+    }// declaration=random;
+    double randNum;
 
 
 
@@ -16,8 +16,7 @@ public class ConDitionals {
             if (randNum<0.165) {//condition1
                 randomInt=1;
 
-            } else if (randNum < .33) {//condition 2
-                //condition 2 is ture, but condition 1 is false.
+            } else if (randNum < .33) {System.out.println("Yessir");
                 randomInt=2;
             } else if (randNum<.495) { System.out.println("Yes Indeed");
                 randomInt=3;
@@ -35,5 +34,5 @@ public class ConDitionals {
 
         }
 
-    }
+
 }
